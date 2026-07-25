@@ -1,7 +1,5 @@
 # Security policy
 
-Use GitHub private vulnerability reporting for suspected vulnerabilities. Do not open public issues containing secrets, personal data, tenant identifiers, or exploitable details.
+Supported security updates target the latest release. Report suspected vulnerabilities privately to `security@cyhelm.com`; do not open a public issue. Include impact, reproduction steps, and affected version. Expect acknowledgement within three business days.
 
-The demonstration applications bind to 127.0.0.1, keep AI credentials server-side, limit prompt size, and retain no AI conversation history. Before production use, add authentication, authorization, tenant isolation, rate limits, durable audit storage, TLS, secret management, and connector-specific threat models.
-
-Synthetic fixtures are not production evidence.
+Before internet exposure, place the API behind TLS, authentication, rate limits and centralized audit logging. The demo has no tenant boundary or authorization layer.

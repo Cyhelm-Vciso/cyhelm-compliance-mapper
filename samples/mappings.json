@@ -1,0 +1,11 @@
+[
+  {
+    "source_framework": "ISO27001",
+    "source_control": "A.5.9",
+    "target_framework": "NIST-CSF",
+    "target_control": "ID.AM-01",
+    "relationship": "partial",
+    "rationale": "Both address inventories of assets supporting organizational objectives.",
+    "confidence": 0.91
+  }
+]
