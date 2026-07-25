@@ -25,4 +25,3 @@ For hosted providers, set `CYHELM_AI_API_KEY` as well. Do not commit secrets.
 ## Data notice
 
 The included records are illustrative CyHelm-authored summaries. They do not reproduce an official standard and are not a substitute for licensed source documents or professional interpretation.
-
